@@ -88,7 +88,7 @@ Ensure you have the following installed on your system:
    ```bash
    npm run dev
    ```
-   *The server should print:* `Server running in development mode on port 5000` & `MongoDB Connected: localhost`.
+   *The server should print:* `Server running in development mode on port 5000` & `MongoDB Connected: https://whole-sale-inventory-and-billing.onrender.com`.
 
 ---
 
@@ -104,13 +104,13 @@ Ensure you have the following installed on your system:
    ```
 3. Configure the environment variables. Open the `.env` file:
    ```text
-   VITE_API_URL=http://localhost:5000/api
+   VITE_API_URL=https://whole-sale-inventory-and-billing.onrender.com/api
    ```
 4. Start the frontend React development server (runs on Port 3000):
    ```bash
    npm run dev
    ```
-   *Vite should automatically open a browser page at:* `http://localhost:3000`.
+   *Vite should automatically open a browser page at:* `https://whole-sale-inventory-and-billing.vercel.app`.
 
 ---
 
@@ -146,7 +146,7 @@ Ensure you have the following installed on your system:
 
 We support registering custom accounts using the `/signup` screen. Here is a recommended configuration to seed and test roles behavior:
 
-1. Open `http://localhost:3000/signup`.
+1. Open `https://whole-sale-inventory-and-billing.vercel.app/signup`.
 2. Create an **Administrator** profile (Role: `Administrator`).
 3. Create a **Staff Member** profile (Role: `Staff Member`).
 4. Log in to the Admin account:
